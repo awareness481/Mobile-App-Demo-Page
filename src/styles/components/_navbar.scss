@@ -1,0 +1,22 @@
+$navbar-background-color: $primary-red-6;
+$navbar-item-color: white;
+$navbar-item-hover-color: $primary-yel-5;
+$navbar-tab-active-color: $primary-yel-5;
+$navbar-item-hover-background-color: $primary-red-6;
+$navbar-height: 4.5rem;
+
+@import 'bulma/sass/components/navbar';
+
+.menu {
+    &__title  {
+        font-size: 2.5rem;
+    }
+
+    &__items {
+        
+        &__item {
+            font-size: 1.2rem;
+        }
+    }
+}
+
