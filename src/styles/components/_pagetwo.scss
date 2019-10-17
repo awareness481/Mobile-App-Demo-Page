@@ -1,0 +1,53 @@
+.page-two {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: $primary-red-5;
+    position: relative;
+
+    &__text {
+        width: 40%;
+
+        position: absolute;
+        top: 50%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        max-width: 40%;
+        
+
+        &__title, &__paragraph, &__buttons {
+            margin-bottom: 10%;
+            color: white;
+        }
+
+        &__title {
+            font-size: 4rem
+        }
+
+        &__paragraph {
+            font-size: 1.7rem;
+        }
+
+        &__buttons {
+
+        }
+    }
+
+    &__img {
+        
+        width: 50%;
+        max-width: 50%;
+        
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-25%, -50%);
+        
+        &__src {
+            width: 40%;
+            height: 40%;
+        }
+    }
+    
+}
